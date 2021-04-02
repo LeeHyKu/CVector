@@ -39,7 +39,7 @@ typedef struct vector
 /**
  * allocate vector
  */
-vector     *vcaloc();
+vector     *vcalloc();
 /**
  * delocate vector
  */
@@ -92,5 +92,5 @@ void        vcadds(vector* zu, vector* von);
 /**
  * compare two vector, create new vector
  */
-vector     *vcccmpr(vector* ein, vector* zwi);
+vector     *vccmpr(vector* ein, vector* zwi);
 #endif

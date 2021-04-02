@@ -25,7 +25,7 @@
 
 int main(void)
 {
-    vector* vc = vcaloc();
+    vector* vc = vcalloc();
     vcpush(vc, 1);
     while (vc->len)
     {
