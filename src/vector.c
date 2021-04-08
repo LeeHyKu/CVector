@@ -107,7 +107,7 @@ void vcadds(vector* zu, vector* von)
 
 vector *vccmpr(vector* ein, vector* zwi)
 {
-    vector *r = vcaloc();
+    vector *r = vcalloc();
     vcadds(r, ein);
     vcadds(r, zwi);
     return r;
